@@ -1,38 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>小马视频－响应式网页设计</title>
-      
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-      
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="resources/css/styel.css">
+	<title>午茶室</title>
+    
   </head>
   <body>
-    
-      <div id="header" class="container" style="background-color:royalblue;color:white;">头部</div>
-      
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-3 col-xs-6" style="background-color:orange;">左边菜单</div>
-              <div class="col-sm-6 col-xs-6">主要内容</div>
-              <div class="col-sm-3 hidden-xs" style="background-color:pink">右边菜单</div>
-          </div>
-      </div>
-      
-      <div id="footer" class="container" style="background-color:seagreen;color:white;">脚部</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <header>
+		<section id="home">
+			<div class="text-box">
+				<h1>歡迎來到午茶室</h1>
+				<h2>我們提供簡餐及下午茶</h2>
+				<a class="btn btn-full" href="#">了解更多</a>
+			</div>
+		</section>
+	</header>
+		<!-- about scetion -->
+		<section class="about-us container" id="about-us">
+			<div class="row title-row">
+				<div class="title text-justify">
+					<h2>天然食材，高纖，低油，低糖，低鹽的飲食</h2>
+				</div>	
+				<div class="dividerCenter"></div>
+			
+				<div class="col-md-6 col-sm-6">
+					<p>在烹飪的時候，除了嚴選新鮮天然的食物，充足的蔬菜水果，並善用天然食物風味，也要減少油品與調味的使用，這樣一來不僅身體吃得自然無負擔，也不用粗茶淡飯食不下嚥</p>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<p>在烹飪的時候，除了嚴選新鮮天然的食物，充足的蔬菜水果，並善用天然食物風味，也要減少油品與調味的使用，這樣一來不僅身體吃得自然無負擔，也不用粗茶淡飯食不下嚥</p>
+				</div>
+			</div>
+		</section>
+		<!-- menu -->
+		<section class="menu">
+			<div class="col-md-8">
+				<div class="col-md-4 boxImage">
+					<div class="imageBoxesTitle">
+						<span>早餐</span>
+					</div>	
+				</div>
+				<div class="col-md-4 boxImage">
+					<div class="imageBoxesTitle">
+						<span>午餐＆晚安</span>
+					</div>	
+				</div>
+				<div class="col-md-4 boxImage">
+					<div class="imageBoxesTitle">
+						<span>飲料</span>
+					</div>	
+				</div>
+			</div>
+				<div class="col-md-4">
+					<div class="bgBlack">
+						<h3>美味餐點</h3>
+						<p class="lead">給予客人的感受一種輕鬆，悠閒。不受拘束的家庭風格。主動，親切，體貼的服務。客人就是我們的朋友，家人。</p>
+						<div class="catBtns">
+							<a  class="botton" href=""></a>
+						</div>	
+					</div>
+				</div>
+		</section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   </body>
 </html>

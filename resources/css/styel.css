@@ -1,0 +1,20 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+hmtl,body{font-size: 18px;font-weight: 300;font-family: 'Noto Sans', sans-serif;background-image: url('img/cdust_scratches.png')}
+h1{font-weight: 300;margin-top: 80px;font-size: 120%;letter-spacing: 6px;}
+h2{font-size: 200%;letter-spacing: 4px;font-weight: 400;}
+h1:after{display: block;background-color: #e03d44;content: "";height: 2px;width: 50px;margin-top: 15px;}
+.text-box{color: #fff;position: absolute;transform: translate(10%, 110%);}
+header{background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4)),url('img/apple-beautiful-blooming-977975.jpg');
+height: 100vh;background-size: cover;background-position: center;background-attachment:fixed;}
+
+.btn:link{margin-top: 20px;font-weight: 100;border-radius: 8px;/* background-color: #e04d44; */transition:0.5s;}
+.btn-full:link,.btn-full:visited{background-color: #e03d44;color: #fff;}
+.btn-full:hover{background-color: rgba(224, 61, 68, .9);}
+
+/* about-us */
+
+.about-us{height: 35vh;}
+.title-row{margin-top: 40px;}
+.title:after{display: block;background-color: #e03d44;content: "";height: 2px;width: 50px;margin-top: 15px;margin-left: auto;margin-right: auto;}
+.title{margin-top: 40px;margin-left: auto;margin-right: auto;margin-bottom: 20px;}
+p{font-size: 16px;line-height: 1.9;float: left;}
